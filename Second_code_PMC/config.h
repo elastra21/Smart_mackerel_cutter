@@ -4,7 +4,12 @@
 #define SERVO2_PIN      1
 #define OFFSET          32
 #define HOME            64
+
 #define no_stations     6
+#define MAX_FLAG        200
+
+#define	IMPLEMENTATION  FIFO
+#define OVERWRITE       true
 
 // #define TALL1           1
 // #define TALL2           4
@@ -18,6 +23,7 @@
 #define TALL_BODY       1
 #define TOWER_BODY      4
 #define JITNEY_BODY     2 
+
 #define TALL_TAIL       5
 #define TOWER_TAIL      3
 #define JITNEY_TAIL     6
